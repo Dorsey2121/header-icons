@@ -43,7 +43,6 @@ ul {
 .nav li {
   float: left;
   width: 33.3%;
-  padding: .5em;
   font-size: 1.125rem;
   border: solid #a63f38 .1em;
 }
@@ -58,6 +57,13 @@ ul {
   width: 40px;
 }
 
-.nav li:hover {
-  background-color: #a63f38;
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: .5em;
+}
+
+.nav a:hover {
+background-color: #a63f38;
 }
